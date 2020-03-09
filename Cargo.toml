@@ -1,0 +1,11 @@
+[package]
+name = "program-stall-prototype"
+version = "0.1.0"
+authors = ["Ashanti Mutinta <Ashantimutinta@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
+uuid = { version = "0.8", features = ["serde", "v4"] }
